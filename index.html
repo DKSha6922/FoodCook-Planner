@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js Dom</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/assets/CSS/style.css" />
+  </head>
+  <body >
+ 
+
+    <header >🍊 FoodCook Planner
+      <a href="/about.html" style="padding: 2px 10px; font-size: 10px;">Credits</a>
+      <a href="/feedback.html" style="padding: 2px 10px; font-size: 10px;">FeedBack</a>
+    </header>
+    <main id="main">
+
+      <div class="ip-Container">
+        <input
+          type="text"
+          placeholder="Like To Eat..."
+          class="ipfood"
+          id="ipfood"
+        />
+        <button class="ipbtn" id="ipbtn">Save</button>
+      </div>
+
+      <section>
+        <div id="food-list-static"></div>
+      <ul id="food-container" class="food-container">
+      </ul>
+
+     <div id="no-list"> 
+      <img src="/assets/Images/pngwing.com.png" alt="Not Found" width="100px">
+      <h6>Create your food item</h6>
+     </div>
+      </section>
+
+    </main>
+
+    <script src="/assets/JS/script.js"></script>
+  </body>
+</html>
